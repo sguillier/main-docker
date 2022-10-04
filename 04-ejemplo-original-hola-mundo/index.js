@@ -11,9 +11,10 @@ const app = express()
 mongoose.connect('mongodb://nico:password@monguito:27017/miapp?authSource=admin')
 
 app.get('/', async (_req, res) => {
-  console.log('listando... chanchitos...')
+  console.log('la puta madre, funciona please')
   const animales = await Animal.find();
-  return res.send(animales)
+  // return res.send(animales)
+  return res.send("Hola Mundo")
 })
 app.get('/crear', async (_req, res) => {
   console.log('creando...')

@@ -16,6 +16,6 @@ RUN npm install
 EXPOSE 8080
 
 # Inicializa Aplicacion
-CMD ["node", "/usr/src/app/index.js"]
+CMD ["node", "index.js"]
 #CMD [ "npm", "start" ]
 
