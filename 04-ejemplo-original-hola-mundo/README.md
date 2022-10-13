@@ -11,7 +11,7 @@ Curso completo gratis aca: https://www.youtube.com/watch?v=4Dko5W96WHg
 
 2. Crea imagen, contenedor e inicia a partir de docker-compose.yml o bien docker-compose-dev.yml
     `docker compose up`
-    `docker compose -f docker-compose-dev.yml up` (este último no funciono, no se actualizaban los cambios hechos en index.js)
+    `docker compose -f docker-compose-dev.yml up` (este último no funciono, no se actualizaban los cambios hechos en index.js, ojo que el -L salvó el otro poryecto)
 
 3. Detener servicio 
     `Ctrl + C`
